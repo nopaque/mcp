@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "uk.co.nopaque/totalpath",
+  "title": "Nopaque TotalPath",
+  "description": "Map, test and load-test IVRs and AI voice agents over real phone calls with TotalPath.",
+  "version": "0.1.0",
+  "websiteUrl": "https://www.nopaque.co.uk/docs/mcp",
+  "repository": {
+    "url": "https://github.com/nopaque/mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.nopaque.co.uk",
+      "headers": [
+        {
+          "name": "x-api-key",
+          "description": "TotalPath workspace API key. Without one, call registerWorkspace to create a workspace and receive a key.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
