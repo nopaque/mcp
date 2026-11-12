@@ -3,7 +3,16 @@
   "name": "uk.co.nopaque/totalpath",
   "title": "Nopaque TotalPath",
   "description": "Map, test and load-test IVRs and AI voice agents over real phone calls with TotalPath.",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "icons": [
+    {
+      "src": "https://www.nopaque.co.uk/mark.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
   "websiteUrl": "https://www.nopaque.co.uk/docs/mcp",
   "repository": {
     "url": "https://github.com/nopaque/mcp",
