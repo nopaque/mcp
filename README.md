@@ -73,18 +73,21 @@ npx @modelcontextprotocol/inspector
 
 ## What the tools cover
 
-The server exposes 59 tools. Call `tools/list` for the current set with full schemas.
+The server exposes 87 tools. Call `tools/list` for the current set with full schemas.
 
 | Area | Examples |
 | --- | --- |
-| IVR mapping | `createMapping`, `getMapping`, `getMappingTree`, `cancelMapping` |
+| IVR mapping | `createMapping`, `getMapping`, `getMappingTree`, `listMappingRuns`, `cancelMapping` |
 | Mission and compliance tests | `runMissionTest`, `getMissionTestRun`, `runComplianceTest`, `listComplianceCatalogue` |
 | Test configs and drafting | `listTestConfigs`, `draftMissionTestConfig`, `draftMissionTestConfigChange` |
 | Results and reporting | `listTestRuns`, `getRunResults`, `aggregateTestRuns`, `listComplianceReports` |
-| Load tests and sweeps | `listLoadTests`, `listSweeps`, `getSweepRun` |
+| Load tests and sweeps | `listLoadTests`, `listLoadTestRuns`, `getLoadTestFailurePatterns`, `listSweeps`, `getSweepRun` |
+| Survey tests | `listSurveyTestConfigs`, `listSurveyRuns`, `listSurveyResults`, `getSurveyResult` |
+| Schedules, batches and alerts | `listSchedules`, `listBatches`, `listBatchRuns`, `listAlertRules`, `listNotificationDestinations` |
+| Datasets, profiles and carriers | `listDatasets`, `listProfiles`, `listCarrierIntegrations`, `listCarrierRoutes` |
 | Digital testing | `listDigitalTestConfigs`, `listDigitalTestRuns`, `listDigitalConnectors` |
 | Imports, audio and numbers | `createImport`, `commitImport`, `listAudio`, `listNumbers` |
-| Workspace, usage and billing | `getWorkspaceUsage`, `getWorkspacePlan`, `listWorkspaceInvoices`, `listAuditEvents` |
+| Workspace, usage and billing | `getWorkspaceUsage`, `getWorkspaceUsageThisPeriod`, `getWorkspacePlan`, `listWorkspaceInvoices`, `listAuditEvents` |
 | Onboarding | `registerWorkspace`, `requestAnchorCode`, `verifyAnchorCode`, `getClaimLink` |
 
 ## Calls are real
