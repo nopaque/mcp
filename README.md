@@ -1,5 +1,7 @@
 # Nopaque MCP server for TotalPath
 
+[![mcptry](https://mcptry.com/badge/uk.co.nopaque/totalpath)](https://mcptry.com/servers/uk.co.nopaque/totalpath)
+
 The official [Model Context Protocol](https://modelcontextprotocol.io) server for
 **TotalPath**, Nopaque's voice testing platform. It lets an AI agent map, test and
 load-test IVRs, AI voice agents and contact-centre journeys over real phone calls.
